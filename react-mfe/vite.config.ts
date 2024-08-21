@@ -6,8 +6,7 @@ import { createEsBuildAdapter } from "@softarc/native-federation-esbuild"
 export default defineConfig(async ({ command }) => ({
   server: {
     port: 5432,
-    preTransformRequests: false,
-    hmr: false
+    preTransformRequests: false
   },
   plugins: [
     await federation({

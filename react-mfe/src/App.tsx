@@ -1,5 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React from "@esm/react";
+import ReactDOM from "@esm/react-dom/client";
 import Mfe from "./Mfe";
 import './App.css'
 

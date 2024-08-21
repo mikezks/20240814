@@ -1,7 +1,13 @@
 {
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@esm/react": ["libs/@esm/react/index.ts"],
+      "@esm/react-dom/client": ["libs/@esm/react-dom/client/index.ts"]
+    }
+  },
   "files": [],
   "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+    { "path": "./tsconfig.app.json" }
   ]
 }
